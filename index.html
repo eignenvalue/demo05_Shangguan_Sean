@@ -13,12 +13,84 @@
 
 </head>
 
-<body>
+<body class="bg-danger-subtle">
 
     <!------------------------------>
     <!-- Your HTML Layout go here -->
     <!------------------------------>
     <!-- Stuff for body goes here -->
+    <!-- Top Navbar ---------------->
+
+    <nav class="navbar navbar-light navbar-expand-lg bg-danger-subtle bg-gradient  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/hikinglogo.png" height="36">
+                Sean app
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trails</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Saved</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of top Navbar ------>
+    <!-- Jumbotron/Hero -->
+
+    <div class="px-4 py-5 my-5 text-center bg-danger-subtle">
+        <img class="d-block mx-auto mb-4" src="./images/hikinglogo.png" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold">Welcome to Seans trail finder app</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4"></p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Find Trails!</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!--end of Jumbotron/Hero-->
+
+    <!--card grid -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title ">Possible Hike</h5>
+                        <img src="./images/hike2.jpg" width="250" height="250">
+                        <a href="#" class="btn btn-primary center">Start this hike!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Possible Hike 2</h5>
+                        <img src="./images/hike3.jpg" height="250" width="250">
+                        <a href="#" class="btn btn-primary">Start this hike!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of card grid-->
 
 
     <!---------------------------------------------->
@@ -26,7 +98,7 @@
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
